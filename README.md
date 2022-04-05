@@ -8,7 +8,7 @@ The first phase of the project consists in authorizing and downloading activity 
 ## This code
 Here we attempt to achieve a satisfactory labelling of paragliding activities in Strava. Other platforms such as Suunto have a paragliding record mode. The problem is these activities are not labeled as such when uploaded to Strava. Our first mission is to tag them correctly.
 
-To train data, I have <b>manually tagged all of my paragliding ativities in Strava with a description #glidelytics</b>. The plan is to identify them to subsequently run analysis for labeling.
+To train data, I have <b>manually tagged all of my paragliding ativities in Strava with a description #glidelytics</b>. Note that the tag is in description not on activity name nor comments (could had been coded that way as well).
 
 This code hence:
 - Downloads all the activities for an authorized athlete on Strava
