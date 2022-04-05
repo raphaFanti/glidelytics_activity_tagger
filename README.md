@@ -35,6 +35,7 @@ With the exploratory analysis we can see that the simple fields used by strava (
 
 Despite the limited data, and without performing any dimensionality reduction, we have tried to see how a classifier would perform. Without having performed any comparison, we decided to try out a neural network MLP classifier present in sklearn.
 The results were surprising: the classifier performed perfectly for the dataset split at 40% for test.
+
 <img width="533" alt="classifier result" src="https://user-images.githubusercontent.com/28501381/161739847-337b374d-a68f-4094-add3-95836303ab04.png">
 
 ## Next steps
